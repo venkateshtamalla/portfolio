@@ -1,0 +1,173 @@
+/* General Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background: #222;
+    color: #fff;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .navbar .logo {
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    float: right;
+    list-style: none;
+  }
+  
+  .nav-links li {
+    display: inline;
+    margin-left: 1rem;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #ffa500;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: url('https://source.unsplash.com/1600x900/?gaming') no-repeat center center/cover;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .hero .highlight {
+    color: #ffa500;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+  }
+  
+  .btn {
+    display: inline-block;
+    background: #ffa500;
+    color: #fff;
+    padding: 0.7rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  .btn:hover {
+    background: #e69500;
+  }
+  
+  /* Section Styles */
+  .section {
+    padding: 4rem 0;
+    background: #fff;
+    margin-bottom: 1rem;
+  }
+  
+  .section h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .section p {
+    text-align: center;
+  }
+  
+  /* Projects */
+  .project-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .project-item {
+    background: #f4f4f4;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  /* Skills */
+  .skills-list {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    list-style: none;
+  }
+  
+  .skills-list li {
+    background: #ffa500;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+  }
+  
+  /* Contact Form */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  form input, form textarea {
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  form button {
+    background: #ffa500;
+    color: #fff;
+    padding: 0.8rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  form button:hover {
+    background: #e69500;
+  }
+  
+  /* Footer */
+  .footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+  }
+  
